@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>	
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A comunidade feita especialmente para autores nacionais, criadores de todos os 
+    gêneros literaririos, venha agora fazer parte deste novo mundo!">
+    <meta name="keywords" content="autores,obras,obras nacionais,espaco dos
+    autores,poesias, mangas, charge, textos, Literatura, posts, imagens,
+    comunidade, rede social, arte, artista, startup, espaco, espaço, dos, os, autores
+    autoria, escritor, desenhinha, poeta, poetisa.">
+		<title>Espaço dos Autores</title>
+		<link rel="shortcut icon" href="images/logonavegadorsemfundo.png" type="image/x-icon">
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+		<!-- bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- css external file  -->
+		<link rel="stylesheet" type="text/css"   href="css_log/visu_img_postlog.css">
+		<link rel="shortcut icon" href="images/logonavegadorsemfundo.png" type="image/x-icon">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+				<div class="container">
+					<img  class="ico2" src="images/logobranco.png" alt="Espaço dos autores">
+					<a class="navbar-brand" href="index_log.html">Espaço dos Autores</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link px-4" href="index_log.html">Feed</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link px-4" href="recomendacao_log.html">Comunidade</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link px-4" href="sobre_log.html">Sobre</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link px-4" href="formpost_log.html">Postar</a>
+							</li>
+							<li class="nav-item">
+								<div class="btn-group" role="group">
+									<a class="nav-link px-4" class="dropdown-toggle" data-bs-toggle="dropdown" >
+									  Opções
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+									  <li><a class="dropdown-item" class="nav-link px-4" href="perfil_log.html">Editar perfil</a></li>
+									  <li><a class="dropdown-item"  class="nav-link px-4"  href="index.html">Sair</a></li>
+									</ul>
+								  </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<!-- JavaScript bootstrap file -->
+	   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	   
+	   <div id="caixaperfil" class="container-fluid">
+	   <div class="row py-5 px-4">
+        <div class="col-md-4 mx-auto">
+            <!-- Profile widget -->
+            <div>
+                <div class="px-4 pt-0 pb-4 cover">
+                    <div>
+                        <div class="container"><img src="images/anon.png" id="perfil" alt="Foto de perfil" width="130" class="rounded">
+                            <h1 id="nomep">Usuario</h1>
+                            <br><h3 id="descp">postado há 0 horas</h3>
+                        </div>
+                        <div class="py-4 px-4">
+                            <div class="d-flex alignimgpost-items-center justify-content-between mb-3">
+                                <h5 id="legendafoto" class="text-start">Legenda da imagem</h5>
+                            </div>
+                            <div id="caixaimgpost" class="row">
+                                <div id="imgpost" class="rounded float-end"><img src="images/img_cinza.jpg"  class="img-fluid rounded shadow-sm"></div>
+                            </div>
+
+                            <div class="d-grid gap-2 col-3 mx-auto">
+
+                                <button id="curtir"><img id="coracao" src="images/coracao-branco.png" width="30"></button>
+
+                              </div>
+                              
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="o que está pensando?" aria-label="Recipient's username with two button addons">
+                                <button class="btn btn-outline-secondary" type="button">Comentar</button>
+                              </div>
+                    </div>
+            </div>
+        </div>   
+	</body>
+
+</html>

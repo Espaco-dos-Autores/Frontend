@@ -1,0 +1,390 @@
+body{
+    background-color: #faf3f3  ;
+    color: black;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+nav{
+    background-color: #38B3FF  ;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    color: white !important;
+}
+
+#btnGroupDrop1{
+    background-color: #38B3FF !important;
+}
+
+.ico2{
+	width: 70px;
+	height: 30px;
+	padding: 0px 20px;
+}
+
+.t1{
+    font-size: 20px;
+}  
+/*img carrosel 1*/
+#imgc1{
+    margin-top: 30px !important;
+    max-height: 500px;
+
+    }
+    #imgc2{
+    margin-top: 30px !important;
+     max-height: 500px;
+
+    }
+    #imgc3{
+    margin-top: 30px !important;  
+    max-height: 500px;
+    }
+    #imgc4{
+    margin-top: 30px !important; 
+    max-height: 500px;
+        }
+    #imgc5{
+        margin-top: 30px !important; 
+        max-height: 500px;
+    }
+.legsite{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 42%;
+}
+.tobe{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 38%;
+}
+
+.grid{
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.grid > article{
+    background: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3s;
+}
+
+.grid > article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0PX rgba(0, 0, 0, 0.3);
+}
+
+.post{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.perfil_img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid greenyellow;
+    border-radius: 100%;
+    margin: -25px 0px;
+}
+
+#perfil_imgrick{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(12, 21, 151);
+    border-radius: 100%;
+    margin: -25px 0px;
+}
+
+.perfil_imglu{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(128, 5, 101);
+    border-radius: 100%;
+    margin: -25px 0px;
+}
+
+#perfil_imgalice{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    margin: -25px 0px;
+}
+
+
+.text{
+    padding: 0% 10% 20%;
+}
+
+.text h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10%;
+}
+
+.text h5{
+    font-size: 9px;
+    margin-top: 0%;
+    font-family:'Segoe UI';
+    color: rgb(116, 114, 114);
+    text-align: center;
+}
+
+.text p{
+    margin: 10% 0 0 0 ;
+    font-family:'Segoe UI';
+    text-align: left;
+    text-align: justify;
+}
+
+@media (max-width:1024px){
+    .grid{
+        grid-template-columns:repeat(3, 1fr);
+        margin-left: 7%;
+        grid-gap: 40px;
+    }
+}
+
+@media (max-widht: 1000px) {
+    body{
+        background-color: #faf3f3  ;
+        color: black;
+        margin: 0;
+        font-family: 'Oswald', sans-serif;
+        max-width: 1000px;
+        width: 1000px;
+    }
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10%;
+    }
+
+    .legsite{
+        font-size:20px ;
+        margin-left: 35%;
+    }
+
+    .tobe{
+        font-size:20px ;
+        margin-left: 35%;
+    }
+
+    .ct{
+        font-size: 30px;
+        margin-top: 20%;
+
+    }
+    .t1{
+        font-size: 20px;
+        margin-bottom:-20px;
+    }
+
+    #imgc1{
+        margin-top: 30px !important;
+        max-height: 500px;
+        max-width: 100%;
+        }
+        #imgc2{
+        margin-top: 30px !important;
+         max-height: 500px;
+         max-width: 100%;
+        
+        }
+        #imgc3{
+        margin-top: 30px !important;  
+        max-height: 500px;
+        max-width: 100%;
+        }
+        #imgc4{
+        margin-top: 30px !important; 
+        max-height: 500px;
+        max-width: 100%;
+            }
+        #imgc5{
+            margin-top: 30px !important; 
+            max-height: 500px;
+            max-width: 100%;
+        }
+    #imgproa{
+        width: 0px;
+    }
+    #cad_empresa{
+        
+        margin-left: 25%;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width:990px){
+    .grid{
+        grid-template-columns:repeat(3, 1fr);
+        margin-left: -15%;
+        grid-gap: 80px;
+    }
+
+}
+
+
+@media (max-width:770px){
+    .grid{
+        grid-template-columns:repeat(2, 1fr);
+        margin-left: -1%;
+        grid-gap: 40px;
+    }
+
+    .legsite{
+        margin-left: 35%;
+    }
+    .tobe{
+        margin-left: 30%;
+    }
+}
+
+@media (max-width:540px){
+    .grid{
+        grid-template-columns:repeat(2, 1fr);
+        margin-left: 1%;
+        grid-gap: 20px;
+    }
+
+}
+@media (max-width:500px){
+    .grid{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left: 18%;
+    }
+
+    .legsite{
+        font-size:20px ;
+        margin-left: 40%;
+    }
+
+    .tobe{
+        font-size:20px ;
+        margin-left: 35%;
+    }
+
+    .ct{
+        font-size: 30px;
+        margin-top: 20%;
+
+    }
+    .t1{
+        font-size: 20px;
+        margin-bottom:-20px;
+    }
+
+    #imgproa{
+        width: 0px;
+    }
+
+    #cad_empresa{  
+        margin-left: 25%;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width:375px){
+    .grid{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:360px){
+    .grid{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left: 16%;
+    }
+
+    .legsite{
+        font-size:20px ;
+        margin-left: 40%;
+    }
+
+    .tobe{
+        font-size:20px ;
+        margin-left: 30%;
+    }
+
+    .ct{
+        font-size: 30px;
+        margin-top: 20%;
+
+    }
+    .t1{
+        font-size: 20px;
+        margin-bottom:-20px;
+    }
+
+    #bcaro1{
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+
+    #bcaro2{
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+    #bcaro3{
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+    #bcaro4{
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+
+    #imgproa{
+        width: 0px;
+    }
+
+    #cad_empresa{
+        
+        margin-left: 25%;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width:320px){
+    .grid{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width:280px){
+    .grid{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left: 2%;
+    }
+}
+
+#rodape{
+    text-align: center;
+    background-color: #38B3FF;
+    color: azure;
+}

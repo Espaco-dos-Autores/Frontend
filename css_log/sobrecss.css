@@ -1,0 +1,172 @@
+body{
+    background-color: white  ;
+    margin: 0;
+    font-family:  'Oswald', sans-serif;
+}
+/*botoes cabeçalho*/
+nav{
+    background-color: #38B3FF  ;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    color: white !important;
+}
+
+#btnGroupDrop1{
+    background-color: #38B3FF !important;
+}
+/*icone cabeçalho*/
+.ico2{
+	width: 70px;
+	height: 30px;
+	padding: 0px 20px;
+}
+
+/*texto sobre*/
+#divtxtsobre{
+    margin-top: 100px !important;
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+
+/*titulo desenvolvedores*/
+#ttdev{
+    margin-left: 36%;
+    left: 50%;
+    max-width:1200px;
+    margin-bottom: 80px;
+    margin-top: -15px;
+}
+
+/*divs desenvolvedores*/
+#divca1{
+    max-width: 1200px;
+    max-height: 500px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.icons{
+    margin-top: 10px;
+    margin-left: 38%;
+}
+
+.iconsdan{
+    margin-top: 10px;
+    margin-left: 43%;
+}
+
+.iconsdan1{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.icons1{
+    margin-top: 10px;
+    margin-left: 42% !important;
+}
+
+
+.icons a{
+    margin-left: 5px;
+}
+
+.icons1 a{
+    margin-left: 5px;
+}
+
+.iconsdan a{
+    margin-left: 5px;
+}
+
+#divca2{
+    max-width: 1200px;
+    max-height: 500px;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+#divca3{
+    max-width: 1200px;
+    max-height: 500px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/*nome desenvolvedores*/
+.nomedev{
+    text-align: center;
+}
+/*descrição desenvolvedores*/
+.descdev{
+    text-align: center;
+}
+/*anim das img desenvolvedores*/
+.rounded-circle:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/*divs profes*/
+#caixamentor{
+margin-top: 100px;
+}
+
+#imgmentor{
+  margin-top: 50px;
+}
+
+#sobreproa{
+    margin-top: 50px;
+}
+
+
+#rodape{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+#rodape p{
+    margin-top: 20px;
+}
+
+@media (max-widht: 768px){
+
+    body{
+        width: 768px;
+        margin-left: -10px;
+    }
+}
+
+
+@media (max-width:540px){
+    body{
+        width: 500px;
+        margin-left: -20px;
+    }
+
+}
+
+@media (max-width:450px){
+
+    body{
+        width: 350px;
+        margin-left: -20px;
+    }
+}
+
+
+@media (max-width:360px){
+
+    body{
+        width: 350px;
+        margin-left: -30px;
+    }
+}
